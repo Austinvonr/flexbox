@@ -46,12 +46,9 @@ body {
   }
 
   .footer {
-    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 0;
-    width: 100%;
   }
 
   .sidebar {
@@ -59,16 +56,20 @@ body {
     padding: 16px;
   }
 
-  .sidebar, a, li, ul {
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    padding-left: 2px;
-  }
-
 .ul {
+    list-style: none;
     padding: 0;
     margin: 0;
+}
+
+li {
+    margin-bottom: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
 }
 
   .container {
